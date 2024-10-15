@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Horizonte</title>
+    <link rel="stylesheet" href="projeto3.css">
+</head>
+<body>
+    <header>
+        <h1>Universidade Horizonte</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre a Faculdade</h2>
+            <p>A Universidade Horizonte oferece cursos de graduação, pós-graduação e extensão em diversas áreas do conhecimento. Com uma estrutura moderna e corpo docente qualificado, buscamos formar profissionais competentes e preparados para o mercado de trabalho.</p>
+        </section>
+
+        <section id="cursos">
+            <h2>Nossos Cursos</h2>
+            <div class="curso">
+                <h3>Administração</h3>
+                <p>O curso de Administração visa formar profissionais capacitados para atuar em diversos segmentos empresariais.</p>
+            </div>
+            <div class="curso">
+                <h3>Direito</h3>
+                <p>Formação em Direito, focada na prática jurídica e na ética profissional para atuação em escritórios e órgãos públicos.</p>
+            </div>
+            <div class="curso">
+                <h3>Engenharia da Computação</h3>
+                <p>Curso voltado ao desenvolvimento de habilidades em programação, redes, hardware e inteligência artificial.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações:</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Universidade Horizonte. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
